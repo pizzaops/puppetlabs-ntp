@@ -1,4 +1,5 @@
 class ntp (
+  $zeespecialfeature      = $ntp::params::zeespecialfeature,
   $autoupdate             = $ntp::params::autoupdate,
   $broadcastclient        = $ntp::params::broadcastclient,
   $config                 = $ntp::params::config,

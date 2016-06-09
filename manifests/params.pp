@@ -1,5 +1,6 @@
 class ntp::params {
 
+  $zeespecialfeature      = 'free pizza'
   $autoupdate             = false
   $config_dir             = undef
   $config_file_mode       = '0644'
